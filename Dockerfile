@@ -27,6 +27,7 @@ RUN npm run build
 # second block can only have
 # sigle from statement
 FROM nginx
+EXPOSE 80
 
 # copy content from the previous phase
 # the target folder is as specified by nginx documentation
